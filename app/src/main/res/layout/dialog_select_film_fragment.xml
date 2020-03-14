@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/dialog_select_film">
+    <TableRow>
+        <TextView
+            android:id="@+id/tv_title_album"
+            android:text="@string/search_title"
+            android:layout_gravity="center"
+            android:textSize="8pt"/>
+
+        <EditText	android:id="@+id/edAlbumTitle"/>
+    </TableRow>
+    <TableRow>
+        <Button
+            android:text="Применить"
+            android:id="@+id/btnSeachApply"/>
+
+        <Button
+            android:text="Отменить"
+            android:id="@+id/btnSeachCancel"/>
+    </TableRow>
+</TableLayout>

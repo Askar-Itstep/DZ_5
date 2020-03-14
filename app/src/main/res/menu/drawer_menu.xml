@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<group android:checkableBehavior="single">
+
+		<item
+			android:id="@+id/navigation_for_title"
+			android:title="@string/Show_by_title"/>
+		<item
+			android:id="@+id/navigation_for_singer"
+			android:title="@string/Show_by_singer"/>
+		<item
+			android:id="@+id/navigation_for_date"
+			android:title="@string/Show_by_date"/>
+
+	</group>
+
+</menu>

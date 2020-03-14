@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">JukeBox</string>
+    <string name="Show_by_title">Отобразить по названию</string>
+    <string name="Show_by_singer">Отобразить по исполнителю</string>
+    <string name="Show_by_date">Отобразить по дате выхода</string>
+    <string name="Navigation">Навигация</string>
+    <string name="search_title">Найти по названию</string>
+</resources>
